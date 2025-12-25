@@ -32,3 +32,21 @@ nav ul li a:hover {
   background-color: #61dafb;
   color: #282c34;
 }
+
+.ink-title {
+  background: linear-gradient(90deg, #61dafb 0%, transparent 50%, #61dafb 100%);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: ink-flow 5s ease-in-out infinite;
+}
+
+@keyframes ink-flow {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}

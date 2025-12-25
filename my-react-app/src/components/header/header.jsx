@@ -4,7 +4,7 @@ import './header.css';
 function Header() {
   return (
     <header>
-      <h1>React ink</h1>
+      <h1 className="ink-title">React Ink</h1>
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
